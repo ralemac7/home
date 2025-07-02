@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rafa Lebrón • Home</title>
+    <meta name="description"
+        content="Welcome to my landing page. Find some information about me and connect through my social links."/>
+    <meta name="robots" content="noindex"/>
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"/>
+</head>
+
+<body>
+    <section id="profile">
+        <img src="/assets/profile.webp" alt="Profile Picture" class="profile-pic">
+        <h1>Rafa Lebrón</h1>
+        <div data-lang="en" style="display: none">
+            <p>
+                Hi! My name is Rafa Lebrón, also known online as <b>ralemac7</b>.<br>
+                I'm a computer science and networking student, and I've been passionate about technology since I was a
+                kid.
+            </p>
+            <p>
+                I love hardware and figuring out how things work. You’ll find my social links below, feel free to reach
+                out if you'd like to talk about ideas or projects.
+            </p>
+        </div>
+        <div data-lang="es" style="display: none">
+            <p>
+                ¡Hola! Me llamo Rafa Lebrón, también conocido en internet como <b>ralemac7</b>.<br>
+                Soy estudiante de informática y redes, y un apasionado de la tecnología desde pequeño.
+            </p>
+            <p>
+                Me encanta el hardware y entender cómo funcionan las cosas. Puedes encontrar mis redes más abajo; si
+                tienes alguna idea o proyecto en mente, estaré encantado de conversar.
+            </p>
+        </div>
+        <div data-lang="ca" style="display: none">
+            <p>
+                Hola! Em dic Rafa Lebrón, també conegut a internet com a <b>ralemac7</b>.<br>
+                Sóc estudiant d'informàtica i xarxes, i m'apassiona la tecnologia des de petit.
+            </p>
+            <p>
+                M'encanta el hardware i entendre com funcionen les coses. A sota trobaràs les meves xarxes; si tens
+                alguna idea o projecte, estaré encantat de parlar-ne.
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="mailto:contact@rafalm.dev" target="_blank" aria-label="Send me an email"><i
+                    class="fas fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/rafalema" target="_blank" aria-label="Visit my LinkedIn profile"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ralemac7" target="_blank" aria-label="Visit my GitHub profile"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://twitter.com/rafalebron7" target="_blank" aria-label="Visit my Twitter profile"><i
+                    class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+    <div id="language-selector">
+        <label for="lang-select" class="sr-only">Language:</label>
+        <select id="lang-select">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="ca">Català</option>
+        </select>
+    </div>
+    <script src="/scripts/lang.js"></script>
+</body>
+
+</html>
